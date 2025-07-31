@@ -210,7 +210,34 @@ python visualizacao.py
 - **Shell**: zsh  
 - **Python**: 3.13.2
 - **Ambiente**: Virtual Environment (.venv)
-- **Controle de Versão**: Git
+- **Controle de Versão**: Git (branch main)
+
+## 🚀 Como Começar
+
+### 1. Clone do Repositório
+```bash
+git clone https://github.com/fcarlos/futebol-serie-b-analise.git
+cd futebol-serie-b-analise
+```
+
+### 2. Ativação do Ambiente
+```bash
+source .venv/bin/activate
+```
+
+### 3. Instalação das Dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execução da Análise
+```bash
+# Pipeline completo
+python exploracao.py
+python limpeza.py
+python transformacao.py
+python visualizacao.py
+```
 
 ## 📝 Arquivos Gerados
 
