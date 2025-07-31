@@ -1,8 +1,8 @@
-# 📊 Análise de Dados - Série B do Campeonato Brasileiro
+# Análise de Dados - Série B do Campeonato Brasileiro
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
-Este projeto realiza uma análise completa e detalhada dos dados da Série B do Campeonato Brasileiro de Futebol, com foco em três aspectos principais:
+Este projeto realiza uma análise dos dados da 15 rodada da Série B do Campeonato Brasileiro de Futebol, com foco em três aspectos principais:
 
 1. **Distribuição do aproveitamento dos times** - Análise estatística descritiva
 2. **Relação entre público e desempenho** - Comparação entre times com maior e menor torcida
@@ -10,7 +10,7 @@ Este projeto realiza uma análise completa e detalhada dos dados da Série B do 
 
 O objetivo é identificar padrões, tendências e insights que possam explicar o desempenho dos times no campeonato, utilizando técnicas de ciência de dados e visualização.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 analise-de-dados/
@@ -31,7 +31,7 @@ analise-de-dados/
 └── README.md                           # Este arquivo
 ```
 
-## 📊 Dataset e Variáveis
+## Dataset e Variáveis
 
 ### Fonte dos Dados
 O dataset contém informações estatísticas dos times participantes da Série B do Campeonato Brasileiro.
@@ -48,7 +48,7 @@ O dataset contém informações estatísticas dos times participantes da Série 
 | **Público** | Numérica | Público médio por jogo (gerado artificialmente) |
 | **Faixa** | Categórica | Classificação em G4 (melhores) ou Z4 (piores) |
 
-## 🛠️ Tecnologias e Dependências
+## Tecnologias e Dependências
 
 ### Linguagem e Ambiente
 - **Python 3.13.2**
@@ -63,7 +63,7 @@ O dataset contém informações estatísticas dos times participantes da Série 
 | **matplotlib** | 3.10.3 | Criação de gráficos e visualizações |
 | **scipy** | 1.16.1 | Análise estatística (correlação de Pearson) |
 
-## ⚙️ Configuração do Ambiente
+## Configuração do Ambiente
 
 ### 1. Ativação do Ambiente Virtual
 
@@ -77,11 +77,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🔄 Pipeline de Análise de Dados
+## Pipeline de Análise de Dados
 
 O projeto segue um pipeline estruturado em 4 etapas principais:
 
-### 1. 🔍 Exploração dos Dados (`exploracao.py`)
+### 1. Exploração dos Dados (`exploracao.py`)
 ```bash
 python exploracao.py
 ```
@@ -98,7 +98,7 @@ python limpeza.py
 - **Remoção de duplicatas**: Eliminação de registros duplicados
 - **Output**: `dataset_corrigido.csv`
 
-### 3. 🔄 Transformação dos Dados (`transformacao.py`)
+### 3. Transformação dos Dados (`transformacao.py`)
 ```bash
 python transformacao.py
 ```
@@ -107,7 +107,7 @@ python transformacao.py
 - **Redução de dados**: Criação do dataset G4 (melhores) e Z4 (piores)
 - **Outputs**: `dataset_novo_atributo.csv` e `dataset_reduzido.csv`
 
-### 4. 📈 Visualização e Análise (`visualizacao.py`)
+### 4. Visualização e Análise (`visualizacao.py`)
 ```bash
 python visualizacao.py
 ```
@@ -115,7 +115,7 @@ python visualizacao.py
 - Salvamento em arquivos PNG de alta resolução
 - Análise estatística com correlações
 
-## 📋 Metodologia
+## Metodologia
 
 ### 1. Pré-processamento
 - **Limpeza dos Dados**: Verificação e tratamento de valores ausentes e duplicatas
@@ -131,7 +131,7 @@ python visualizacao.py
 - **Visualização**: Criação de gráficos informativos e interpretativos
 - **Insights**: Extração de padrões e tendências dos dados
 
-## 📊 Resultados da Análise
+## Resultados da Análise
 
 ### Q1 - Distribuição do Aproveitamento dos Times
 
@@ -194,17 +194,17 @@ python visualizacao.py
 
 **Conclusão**: Marcar mais gols está correlacionado com melhor desempenho, mas não é garantia de sucesso. A análise reforça a importância da eficiência ofensiva, mas sugere que aspectos defensivos e táticos também são decisivos.
 
-## 📈 Insights Principais
+## Insights Principais
 
-1. **⚖️ Competição Equilibrada**: A Série B apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
+1. ** Competição Equilibrada**: A Série B apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
 
-2. **👥 Público ≠ Performance**: Não existe relação direta entre o tamanho da torcida e o desempenho em campo, sugerindo que fatores técnicos e táticos são mais determinantes.
+2. ** Público ≠ Performance**: Não existe relação direta entre o tamanho da torcida e o desempenho em campo, sugerindo que fatores técnicos e táticos são mais determinantes.
 
-3. **⚽ Eficiência Ofensiva Importante**: Existe uma correlação moderada-forte entre gols marcados e aproveitamento, mas a eficiência defensiva também é crucial para o sucesso.
+3. ** Eficiência Ofensiva Importante**: Existe uma correlação moderada-forte entre gols marcados e aproveitamento, mas a eficiência defensiva também é crucial para o sucesso.
 
-4. **📊 Análise Multivariada**: O desempenho no futebol é resultado de múltiplos fatores, não apenas um indicador isolado.
+4. ** Análise Multivariada**: O desempenho no futebol é resultado de múltiplos fatores, não apenas um indicador isolado.
 
-## 🔧 Ambiente Técnico
+##  Ambiente Técnico
 
 - **Sistema Operacional**: macOS
 - **Shell**: zsh  
@@ -212,7 +212,7 @@ python visualizacao.py
 - **Ambiente**: Virtual Environment (.venv)
 - **Controle de Versão**: Git (branch main)
 
-## 🚀 Como Começar
+## Como Começar
 
 ### 1. Clone do Repositório
 ```bash
@@ -239,7 +239,7 @@ python transformacao.py
 python visualizacao.py
 ```
 
-## 📝 Arquivos Gerados
+## Arquivos Gerados
 
 - `dataset_corrigido.csv` - Dataset limpo
 - `dataset_novo_atributo.csv` - Dataset com coluna Público
