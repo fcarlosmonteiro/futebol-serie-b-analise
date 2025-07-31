@@ -137,7 +137,7 @@ python visualizacao.py
 
 ![Histograma de Aproveitamento](grafico_q1_histograma_aproveitamento.png)
 
-**Pergunta**: Qual é a média e a mediana de aproveitamento dos times na Série B?
+**Questão**: Qual é a média e a mediana de aproveitamento dos times na Série B?
 
 **Metodologia**:
 - Variável analisada: Aproveitamento (%)
@@ -157,7 +157,7 @@ python visualizacao.py
 
 ![Público vs Aproveitamento](grafico_q2_publico_aproveitamento.png)
 
-**Pergunta**: Qual time apresenta o maior e o menor público médio, e como se comparam em desempenho?
+**Questão**: Qual time apresenta o maior e o menor público médio, e como se comparam em desempenho?
 
 **Metodologia**:
 - Variáveis: Público médio e Aproveitamento (%)
@@ -178,7 +178,7 @@ python visualizacao.py
 
 ![Gols vs Aproveitamento](grafico_q3_gols_aproveitamento.png)
 
-**Pergunta**: Existe correlação entre o número de gols marcados e o aproveitamento dos times?
+**Questão**: Existe correlação entre o número de gols marcados e o aproveitamento dos times?
 
 **Metodologia**:
 - Variáveis: GP (Gols Pró) e Aproveitamento (%)
@@ -196,21 +196,13 @@ python visualizacao.py
 
 ## Insights Principais
 
-1. ** Competição Equilibrada**: A Série B apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
+1. ** Rodada da competição equilibrada**: A rodada apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
 
 2. ** Público ≠ Performance**: Não existe relação direta entre o tamanho da torcida e o desempenho em campo, sugerindo que fatores técnicos e táticos são mais determinantes.
 
 3. ** Eficiência Ofensiva Importante**: Existe uma correlação moderada-forte entre gols marcados e aproveitamento, mas a eficiência defensiva também é crucial para o sucesso.
 
 4. ** Análise Multivariada**: O desempenho no futebol é resultado de múltiplos fatores, não apenas um indicador isolado.
-
-##  Ambiente Técnico
-
-- **Sistema Operacional**: macOS
-- **Shell**: zsh  
-- **Python**: 3.13.2
-- **Ambiente**: Virtual Environment (.venv)
-- **Controle de Versão**: Git (branch main)
 
 ## Como Começar
 
@@ -250,7 +242,3 @@ python visualizacao.py
 - `report.txt` - Relatório analítico detalhado
 
 ---
-
-**Desenvolvido por**: Francisco Carlos  
-**Data**: Julho 2025  
-**Tecnologia**: Python, Pandas, NumPy, Matplotlib, SciPy
