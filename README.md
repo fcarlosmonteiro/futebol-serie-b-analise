@@ -200,13 +200,13 @@ python visualizacao.py
 
 ## Insights Principais
 
-1. ** Rodada da competição equilibrada**: A rodada apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
+1. **Rodada da competição equilibrada**: A rodada apresenta uma distribuição equilibrada de desempenho, com a maioria dos times concentrados em uma faixa similar de aproveitamento.
 
-2. ** Público ≠ Performance**: Não existe relação direta entre o tamanho da torcida e o desempenho em campo, sugerindo que fatores técnicos e táticos são mais determinantes.
+2. **Público ≠ Performance**: Não existe relação direta entre o tamanho da torcida e o desempenho em campo, sugerindo que fatores técnicos e táticos são mais determinantes.
 
-3. ** Eficiência Ofensiva Importante**: Existe uma correlação moderada-forte entre gols marcados e aproveitamento, mas a eficiência defensiva também é crucial para o sucesso.
+3. **Eficiência Ofensiva Importante**: Existe uma correlação moderada-forte entre gols marcados e aproveitamento, mas a eficiência defensiva também é crucial para o sucesso.
 
-4. ** Análise Multivariada**: O desempenho no futebol é resultado de múltiplos fatores, não apenas um indicador isolado.
+4. **Análise Multivariada**: O desempenho no futebol é resultado de múltiplos fatores, não apenas um indicador isolado.
 
 ## Como Começar
 
