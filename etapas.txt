@@ -1,0 +1,19 @@
+
+1. PRÉ-PROCESSAMENTO
+
+1.1. Limpeza dos Dados
+    - Verificar e ajustar valores ausentes.
+    - Detectar e remover registros duplicados.
+
+2. TRANSFORMAÇÃO
+
+2.1. Agregações
+    - Calcular média de gols marcados (GP), gols sofridos (GC), pontos e aproveitamento.
+
+2.2. Criação de Novos Atributos
+    - Público
+
+2.3. Redução Sintetizada dos Dados
+    - Agrupar clubes por faixa de pontuação (G4, Z4).
+
+2.4 Visualização dos dados

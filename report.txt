@@ -1,0 +1,56 @@
+Relatório Analítico – Série B: Aproveitamento, Gols e Público
+
+Q1 – Qual é a média e a mediana de aproveitamento dos times na Série B?
+Variáveis utilizadas:
+Aproveitamento (%): representa a razão entre os pontos conquistados e o total possível (vitórias e empates), em termos percentuais.
+
+Gráfico:
+Histograma com 10 intervalos (barras) de aproveitamento;
+Linhas verticais indicando a média (45,3%) e a mediana (46,0%);
+Rótulos de frequência (número de times) em cada barra.
+
+Interpretação:
+A maioria dos times está concentrada entre 30% e 50% de aproveitamento.
+A distribuição é relativamente simétrica, com leve tendência à esquerda (alguns poucos times com aproveitamento alto).
+A média e a mediana são próximas, indicando equilíbrio entre os valores.
+
+Conclusão:
+O desempenho médio dos times gira em torno de 45%, com pequena variação. Isso sugere uma competição relativamente equilibrada, com poucos times destoando positivamente.
+
+Q2 – Qual time apresenta o maior e o menor público médio, e como eles se comparam em termos de desempenho?
+Variáveis utilizadas:
+Público médio: média de espectadores por time.
+Aproveitamento (%): para comparar desempenho dos times com maior e menor público.
+
+Gráfico:
+Gráfico de barras comparando dois times;
+CRB com maior público: 49.995 pessoas;
+Cuiabá com menor público: 5.074 pessoas.
+
+Aproveitamento anotado diretamente acima de cada barra.
+
+Interpretação:
+Apesar da enorme diferença de público, o aproveitamento dos dois times é similar: CRB (46%), Cuiabá (48%).
+Isso indica que o fator público não está diretamente ligado ao desempenho no campeonato (ao menos nesses dois casos extremos).
+
+Conclusão:
+O time com maior torcida não é necessariamente o mais eficiente em campo. O desempenho de CRB e Cuiabá é comparável, mesmo com públicos muito diferentes.
+
+Q3 – Existe um padrão de aproveitamento entre os times com maior número de gols marcados (GP)?
+Variáveis utilizadas:
+GP (Gols Pró): total de gols marcados por cada time.
+Aproveitamento (%): para avaliar o desempenho geral.
+
+Gráfico:
+
+Cor dos pontos em gradiente conforme o aproveitamento;
+Nomes dos times identificando cada ponto;
+Linha de tendência linear (regressão);
+Coeficiente de correlação de Pearson: r = 0.66.
+
+Interpretação:
+Existe uma correlação positiva moderada-forte: times que marcam mais gols tendem a ter maior aproveitamento.
+Exceções existem (ex: times que marcam bastante, mas não convertem isso em vitórias), mas a tendência geral é clara.
+
+Conclusão:
+Marcar mais gols costuma refletir em melhor desempenho, mas não é garantia de sucesso. A estatística reforça a importância ofensiva, mas também sugere que aspectos defensivos e táticos também são decisivos.
