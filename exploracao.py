@@ -1,7 +1,7 @@
 import pandas as pd
 
 # abrir a base de dados
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("dataset/dataset.csv")
 
 # imprimir as primeiras linhas da base de dados
 print(df.head())

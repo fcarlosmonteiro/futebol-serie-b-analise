@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("dataset/dataset.csv")
 
 # método para tratar valores ausentes
 def tratar_valores_ausentes(df):
@@ -24,5 +24,5 @@ df_new = tratar_valores_ausentes(df)
 df_final = remover_duplicatas(df_new)
 
 #salvar o DataFrame corrigido em um novo arquivo CSV
-df_final.to_csv("dataset_corrigido.csv", index=False)  
+df_final.to_csv("dataset/dataset_corrigido.csv", index=False)  
 

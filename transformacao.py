@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("dataset_corrigido.csv")
+df = pd.read_csv("dataset/dataset_corrigido.csv")
 
 #Etapa de agregação dos dados
 def calcular_medias(df):
@@ -32,5 +32,5 @@ calcular_medias(df)
 df = adicionar_publico(df)
 df_reduzido = reducao_dados(df)
 
-df.to_csv("dataset_novo_atributo.csv", index=False)
-df_reduzido.to_csv("dataset_reduzido.csv", index=False)
+df.to_csv("dataset/dataset_novo_atributo.csv", index=False)
+df_reduzido.to_csv("dataset/dataset_reduzido.csv", index=False)

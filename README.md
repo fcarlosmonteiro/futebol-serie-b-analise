@@ -13,22 +13,26 @@ O objetivo é identificar padrões, tendências e insights que possam explicar o
 ## Estrutura do Projeto
 
 ```
-analise-de-dados/
-├── dataset.csv                           # Dataset original
-├── dataset_corrigido.csv                 # Dataset após limpeza
-├── dataset_novo_atributo.csv             # Dataset com atributo "Público"
-├── dataset_reduzido.csv                  # Dataset reduzido (G4 e Z4)
-├── exploracao.py                         # Exploração inicial dos dados
-├── limpeza.py                           # Pré-processamento e limpeza
-├── transformacao.py                     # Transformações e agregações
-├── visualizacao.py                      # Geração de gráficos
-├── grafico_q1_histograma_aproveitamento.png  # Gráfico Q1
-├── grafico_q2_publico_aproveitamento.png     # Gráfico Q2
-├── grafico_q3_gols_aproveitamento.png        # Gráfico Q3
-├── report.txt                           # Relatório analítico detalhado
-├── etapas.txt                          # Documentação das etapas
-├── requirements.txt                     # Dependências do projeto
-└── README.md                           # Este arquivo
+futebol-serie-b-analise/
+├── dataset/                              # Dados do projeto
+│   ├── dataset.csv                       # Dataset original
+│   ├── dataset_corrigido.csv            # Dataset após limpeza
+│   ├── dataset_novo_atributo.csv        # Dataset com atributo "Público"
+│   └── dataset_reduzido.csv             # Dataset reduzido (G4 e Z4)
+├── docs/                                # Documentação
+│   ├── etapas.txt                       # Documentação das etapas
+│   └── report.txt                       # Relatório analítico detalhado
+├── plots/                               # Visualizações geradas
+│   ├── grafico_q1_histograma_aproveitamento.png  # Gráfico Q1
+│   ├── grafico_q2_publico_aproveitamento.png     # Gráfico Q2
+│   └── grafico_q3_gols_aproveitamento.png        # Gráfico Q3
+├── exploracao.py                        # Exploração inicial dos dados
+├── limpeza.py                          # Pré-processamento e limpeza
+├── transformacao.py                    # Transformações e agregações
+├── visualizacao.py                     # Geração de gráficos
+├── requirements.txt                    # Dependências do projeto
+├── .gitignore                         # Arquivos ignorados pelo Git
+└── README.md                          # Este arquivo
 ```
 
 ## Dataset e Variáveis
@@ -135,7 +139,7 @@ python visualizacao.py
 
 ### Q1 - Distribuição do Aproveitamento dos Times
 
-![Histograma de Aproveitamento](grafico_q1_histograma_aproveitamento.png)
+![Histograma de Aproveitamento](plots/grafico_q1_histograma_aproveitamento.png)
 
 **Questão**: Qual é a média e a mediana de aproveitamento dos times na Série B?
 
@@ -155,7 +159,7 @@ python visualizacao.py
 
 ### Q2 - Relação entre Público e Desempenho
 
-![Público vs Aproveitamento](grafico_q2_publico_aproveitamento.png)
+![Público vs Aproveitamento](plots/grafico_q2_publico_aproveitamento.png)
 
 **Questão**: Qual time apresenta o maior e o menor público médio, e como se comparam em desempenho?
 
@@ -176,7 +180,7 @@ python visualizacao.py
 
 ### Q3 - Correlação entre Gols Marcados e Aproveitamento
 
-![Gols vs Aproveitamento](grafico_q3_gols_aproveitamento.png)
+![Gols vs Aproveitamento](plots/grafico_q3_gols_aproveitamento.png)
 
 **Questão**: Existe correlação entre o número de gols marcados e o aproveitamento dos times?
 
@@ -233,12 +237,18 @@ python visualizacao.py
 
 ## Arquivos Gerados
 
-- `dataset_corrigido.csv` - Dataset limpo
-- `dataset_novo_atributo.csv` - Dataset com coluna Público
-- `dataset_reduzido.csv` - Dataset G4 e Z4
-- `grafico_q1_histograma_aproveitamento.png` - Distribuição do aproveitamento
-- `grafico_q2_publico_aproveitamento.png` - Público vs performance  
-- `grafico_q3_gols_aproveitamento.png` - Correlação gols vs aproveitamento
-- `report.txt` - Relatório analítico detalhado
+### Datasets
+- `dataset/dataset_corrigido.csv` - Dataset limpo
+- `dataset/dataset_novo_atributo.csv` - Dataset com coluna Público
+- `dataset/dataset_reduzido.csv` - Dataset G4 e Z4
+
+### Visualizações
+- `plots/grafico_q1_histograma_aproveitamento.png` - Distribuição do aproveitamento
+- `plots/grafico_q2_publico_aproveitamento.png` - Público vs performance  
+- `plots/grafico_q3_gols_aproveitamento.png` - Correlação gols vs aproveitamento
+
+### Documentação
+- `docs/report.txt` - Relatório analítico detalhado
+- `docs/etapas.txt` - Documentação das etapas do processo
 
 ---

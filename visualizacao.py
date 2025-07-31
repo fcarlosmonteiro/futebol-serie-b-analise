@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import pearsonr
 
 # Carregar o dataset
-df = pd.read_csv('dataset_novo_atributo.csv')
+df = pd.read_csv('dataset/dataset_novo_atributo.csv')
 
 # Conversão de tipos
 df['Aproveitamento'] = df['Aproveitamento'].astype(float)
@@ -30,7 +30,7 @@ plt.xlabel('Aproveitamento (%)')
 plt.ylabel('Frequência')
 plt.legend()
 plt.tight_layout()
-plt.savefig('grafico_q1_histograma_aproveitamento.png', dpi=300, bbox_inches='tight')
+plt.savefig('plots/grafico_q1_histograma_aproveitamento.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 
@@ -53,7 +53,7 @@ plt.title('Q2 – Maior e Menor Público Médio vs Aproveitamento')
 plt.ylabel('Público Médio')
 plt.xlabel('Time')
 plt.tight_layout()
-plt.savefig('grafico_q2_publico_aproveitamento.png', dpi=300, bbox_inches='tight')
+plt.savefig('plots/grafico_q2_publico_aproveitamento.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 
@@ -79,11 +79,11 @@ plt.colorbar(scatter, label='Aproveitamento (%)')
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.savefig('grafico_q3_gols_aproveitamento.png', dpi=300, bbox_inches='tight')
+plt.savefig('plots/grafico_q3_gols_aproveitamento.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 
 print("Gráficos salvos com sucesso!")
-print("- grafico_q1_histograma_aproveitamento.png")
-print("- grafico_q2_publico_aproveitamento.png")
-print("- grafico_q3_gols_aproveitamento.png")
+print("- plots/grafico_q1_histograma_aproveitamento.png")
+print("- plots/grafico_q2_publico_aproveitamento.png")
+print("- plots/grafico_q3_gols_aproveitamento.png")
