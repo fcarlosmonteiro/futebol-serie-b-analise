@@ -17,3 +17,6 @@
     - Agrupar clubes por faixa de pontuação (G4, Z4).
 
 2.4 Visualização dos dados
+    - Criar gráficos com base nas questões de pesquisa.
+    - Usar a Correlação de Pearson para verificar o quão forte é a relação entre duas variáveis de gols e aproveitamento.
+
