@@ -216,7 +216,7 @@ python visualizacao.py
 
 ### 1. Clone do Repositório
 ```bash
-git clone https://github.com/fcarlos/futebol-serie-b-analise.git
+git clone https://github.com/fcarlosmonteiro/futebol-serie-b-analise.git
 cd futebol-serie-b-analise
 ```
 
